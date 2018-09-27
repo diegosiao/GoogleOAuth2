@@ -5,7 +5,7 @@ Google APIs Access Token generator
 
 This Windows CLI utility implements the Google APIs OAuth2 authorization using Google Libraries and generates an output file with the Access Token information.
 
-Json and "Key=Value" output formats supported.
+Json and "Key=Value" output file formats supported.
 
 ## How to use?
 
@@ -15,9 +15,6 @@ For basic usage, execute:
 
     GoogleOAuth2 -u service-account@your-project.iam.gserviceaccount.com -c certificate.p12 -s "https://www.googleapis.com/auth/spreadsheets"
 
-For help with another options, execute:
-
-    GoogleOAuth2 --help
 
 JSON output example:
 
@@ -31,6 +28,11 @@ JSON output example:
         "Issued": "2018-09-26T23:19:02.5880612-03:00",
         "IssuedUtc": "2018-09-27T02:19:02.5880612Z"
     }
+
+
+For help with another options, execute:
+
+    GoogleOAuth2 --help
 
 ## Download
 
