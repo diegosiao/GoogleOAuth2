@@ -8,9 +8,16 @@ This Windows CLI utility implements the Google APIs OAuth2 authorization using G
 Json and "Key=Value" output formats supported.
 
 ## How to use?
-Run:
 
-    GoogleOAuth2 -u your-service-account@gmail.com -c cert.p12 -s "https://www.googleapis.com/auth/spreadsheets"
+You will need to configure a service account and generate a '*.p12' certificate with appropriate security settings on [Google Developers Console](https://console.developers.google.com). Make sure to specify the scope under -s option using a comma separated pattern **without spaces** to specify more than one.
+
+For basic usage, execute:
+
+    GoogleOAuth2 -u your-service-account@gmail.com -c certificate.p12 -s "https://www.googleapis.com/auth/spreadsheets"
+
+For help with another options, execute:
+
+    GoogleOAuth2 --help
 
 JSON output example:
 
@@ -27,4 +34,4 @@ JSON output example:
 
 ## Download
 
-#### [GoogleOAuth2.exe](https://github.com/diegosiao/GoogleOAuth2/blob/master/GoogleOAuth2/downloads/GoogleOAuth2.exe)
+#### [GoogleOAuth2.exe](https://github.com/diegosiao/GoogleOAuth2/releases/download/1.0.3/GoogleOAuth2.exe)
