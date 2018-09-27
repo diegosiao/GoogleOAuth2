@@ -27,4 +27,4 @@ JSON output example:
 
 ## Download
 
-    <a href="https://github.com/diegosiao/GoogleOAuth2/blob/master/GoogleOAuth2/downloads/GoogleOAuth2.exe">GoogleOAuth2.exe</a>
+#### [GoogleOAuth2.exe](https://github.com/diegosiao/GoogleOAuth2/blob/master/GoogleOAuth2/downloads/GoogleOAuth2.exe)
