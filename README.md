@@ -13,7 +13,7 @@ You will need to configure a service account and generate a '*.p12' certificate 
 
 For basic usage, execute:
 
-    GoogleOAuth2 -u your-service-account@gmail.com -c certificate.p12 -s "https://www.googleapis.com/auth/spreadsheets"
+    GoogleOAuth2 -u service-account@your-project.iam.gserviceaccount.com -c certificate.p12 -s "https://www.googleapis.com/auth/spreadsheets"
 
 For help with another options, execute:
 
